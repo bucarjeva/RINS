@@ -7,7 +7,7 @@ project(naloga1)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs message_generation)
+find_package(catkin REQUIRED COMPONENTS roscpp std_msgs message_generation)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -43,18 +43,17 @@ find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs message_generation
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
-#   Message2.msg
-# )
+add_message_files(
+  DIRECTORY msg
+  FILES
+  CustomMessage.msg
+)
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  Sum.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -68,6 +67,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs message_generation
 #   DEPENDENCIES
 #   std_msgs  # Or other packages containing msgs
 # )
+generate_messages(DEPENDENCIES std_msgs)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -103,6 +103,7 @@ catkin_package(
 #  LIBRARIES naloga1
 #  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
+   CATKIN_DEPENDS message_runtime
 )
 
 ###########
@@ -112,8 +113,8 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
-# ${catkin_INCLUDE_DIRS}
+ include
+ ${catkin_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -129,7 +130,14 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/naloga1_node.cpp)
+add_executable(simple_publisher_node src/simple_publisher_node.cpp)
+add_executable(simple_subscriber_node src/simple_subscriber_node.cpp)
+
+add_executable(custom_publisher_node src/custom_publisher_node.cpp)
+add_executable(custom_subscriber_node src/custom_subscriber_node.cpp)
+
+add_executable(service_server_node src/service_node.cpp)
+add_executable(service_client_node src/client_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -140,11 +148,21 @@ include_directories(
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(custom_publisher_node ${${PROJECT_NAME}_EXPORTED_TARGETS})
+# add_dependencies(custom_subscriber_node ${${PROJECT_NAME}_EXPORTED_TARGETS})
+add_dependencies(service_server_node ${${PROJECT_NAME}_EXPORTED_TARGETS})
+add_dependencies(service_client_node ${${PROJECT_NAME}_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
+target_link_libraries(simple_publisher_node ${catkin_LIBRARIES})
+target_link_libraries(simple_subscriber_node ${catkin_LIBRARIES})
+target_link_libraries(custom_publisher_node ${catkin_LIBRARIES})
+target_link_libraries(custom_subscriber_node ${catkin_LIBRARIES})
+target_link_libraries(service_server_node ${catkin_LIBRARIES})
+target_link_libraries(service_client_node ${catkin_LIBRARIES})
 
 #############
 ## Install ##

@@ -817,6 +817,253 @@ geometry_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f exercise2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make exercise2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
+#=============================================================================
+# Target rules for targets named service_server_node
+
+# Build rule for target.
+service_server_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 service_server_node
+.PHONY : service_server_node
+
+# fast build rule for target.
+service_server_node/fast:
+	$(MAKE) -f naloga1/CMakeFiles/service_server_node.dir/build.make naloga1/CMakeFiles/service_server_node.dir/build
+.PHONY : service_server_node/fast
+
+#=============================================================================
+# Target rules for targets named simple_publisher_node
+
+# Build rule for target.
+simple_publisher_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simple_publisher_node
+.PHONY : simple_publisher_node
+
+# fast build rule for target.
+simple_publisher_node/fast:
+	$(MAKE) -f naloga1/CMakeFiles/simple_publisher_node.dir/build.make naloga1/CMakeFiles/simple_publisher_node.dir/build
+.PHONY : simple_publisher_node/fast
+
+#=============================================================================
+# Target rules for targets named naloga1_generate_messages
+
+# Build rule for target.
+naloga1_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 naloga1_generate_messages
+.PHONY : naloga1_generate_messages
+
+# fast build rule for target.
+naloga1_generate_messages/fast:
+	$(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages.dir/build
+.PHONY : naloga1_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named naloga1_generate_messages_eus
+
+# Build rule for target.
+naloga1_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 naloga1_generate_messages_eus
+.PHONY : naloga1_generate_messages_eus
+
+# fast build rule for target.
+naloga1_generate_messages_eus/fast:
+	$(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_eus.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_eus.dir/build
+.PHONY : naloga1_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named simple_subscriber_node
+
+# Build rule for target.
+simple_subscriber_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simple_subscriber_node
+.PHONY : simple_subscriber_node
+
+# fast build rule for target.
+simple_subscriber_node/fast:
+	$(MAKE) -f naloga1/CMakeFiles/simple_subscriber_node.dir/build.make naloga1/CMakeFiles/simple_subscriber_node.dir/build
+.PHONY : simple_subscriber_node/fast
+
+#=============================================================================
+# Target rules for targets named _naloga1_generate_messages_check_deps_CustomMessage
+
+# Build rule for target.
+_naloga1_generate_messages_check_deps_CustomMessage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _naloga1_generate_messages_check_deps_CustomMessage
+.PHONY : _naloga1_generate_messages_check_deps_CustomMessage
+
+# fast build rule for target.
+_naloga1_generate_messages_check_deps_CustomMessage/fast:
+	$(MAKE) -f naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_CustomMessage.dir/build.make naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_CustomMessage.dir/build
+.PHONY : _naloga1_generate_messages_check_deps_CustomMessage/fast
+
+#=============================================================================
+# Target rules for targets named naloga1_generate_messages_lisp
+
+# Build rule for target.
+naloga1_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 naloga1_generate_messages_lisp
+.PHONY : naloga1_generate_messages_lisp
+
+# fast build rule for target.
+naloga1_generate_messages_lisp/fast:
+	$(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_lisp.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_lisp.dir/build
+.PHONY : naloga1_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named _naloga1_generate_messages_check_deps_Sum
+
+# Build rule for target.
+_naloga1_generate_messages_check_deps_Sum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _naloga1_generate_messages_check_deps_Sum
+.PHONY : _naloga1_generate_messages_check_deps_Sum
+
+# fast build rule for target.
+_naloga1_generate_messages_check_deps_Sum/fast:
+	$(MAKE) -f naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/build.make naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/build
+.PHONY : _naloga1_generate_messages_check_deps_Sum/fast
+
+#=============================================================================
+# Target rules for targets named naloga1_gencpp
+
+# Build rule for target.
+naloga1_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 naloga1_gencpp
+.PHONY : naloga1_gencpp
+
+# fast build rule for target.
+naloga1_gencpp/fast:
+	$(MAKE) -f naloga1/CMakeFiles/naloga1_gencpp.dir/build.make naloga1/CMakeFiles/naloga1_gencpp.dir/build
+.PHONY : naloga1_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named custom_publisher_node
+
+# Build rule for target.
+custom_publisher_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 custom_publisher_node
+.PHONY : custom_publisher_node
+
+# fast build rule for target.
+custom_publisher_node/fast:
+	$(MAKE) -f naloga1/CMakeFiles/custom_publisher_node.dir/build.make naloga1/CMakeFiles/custom_publisher_node.dir/build
+.PHONY : custom_publisher_node/fast
+
+#=============================================================================
+# Target rules for targets named naloga1_generate_messages_cpp
+
+# Build rule for target.
+naloga1_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 naloga1_generate_messages_cpp
+.PHONY : naloga1_generate_messages_cpp
+
+# fast build rule for target.
+naloga1_generate_messages_cpp/fast:
+	$(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/build
+.PHONY : naloga1_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named naloga1_geneus
+
+# Build rule for target.
+naloga1_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 naloga1_geneus
+.PHONY : naloga1_geneus
+
+# fast build rule for target.
+naloga1_geneus/fast:
+	$(MAKE) -f naloga1/CMakeFiles/naloga1_geneus.dir/build.make naloga1/CMakeFiles/naloga1_geneus.dir/build
+.PHONY : naloga1_geneus/fast
+
+#=============================================================================
+# Target rules for targets named service_client_node
+
+# Build rule for target.
+service_client_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 service_client_node
+.PHONY : service_client_node
+
+# fast build rule for target.
+service_client_node/fast:
+	$(MAKE) -f naloga1/CMakeFiles/service_client_node.dir/build.make naloga1/CMakeFiles/service_client_node.dir/build
+.PHONY : service_client_node/fast
+
+#=============================================================================
+# Target rules for targets named naloga1_genpy
+
+# Build rule for target.
+naloga1_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 naloga1_genpy
+.PHONY : naloga1_genpy
+
+# fast build rule for target.
+naloga1_genpy/fast:
+	$(MAKE) -f naloga1/CMakeFiles/naloga1_genpy.dir/build.make naloga1/CMakeFiles/naloga1_genpy.dir/build
+.PHONY : naloga1_genpy/fast
+
+#=============================================================================
+# Target rules for targets named naloga1_genlisp
+
+# Build rule for target.
+naloga1_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 naloga1_genlisp
+.PHONY : naloga1_genlisp
+
+# fast build rule for target.
+naloga1_genlisp/fast:
+	$(MAKE) -f naloga1/CMakeFiles/naloga1_genlisp.dir/build.make naloga1/CMakeFiles/naloga1_genlisp.dir/build
+.PHONY : naloga1_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named naloga1_generate_messages_nodejs
+
+# Build rule for target.
+naloga1_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 naloga1_generate_messages_nodejs
+.PHONY : naloga1_generate_messages_nodejs
+
+# fast build rule for target.
+naloga1_generate_messages_nodejs/fast:
+	$(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_nodejs.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_nodejs.dir/build
+.PHONY : naloga1_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named custom_subscriber_node
+
+# Build rule for target.
+custom_subscriber_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 custom_subscriber_node
+.PHONY : custom_subscriber_node
+
+# fast build rule for target.
+custom_subscriber_node/fast:
+	$(MAKE) -f naloga1/CMakeFiles/custom_subscriber_node.dir/build.make naloga1/CMakeFiles/custom_subscriber_node.dir/build
+.PHONY : custom_subscriber_node/fast
+
+#=============================================================================
+# Target rules for targets named naloga1_gennodejs
+
+# Build rule for target.
+naloga1_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 naloga1_gennodejs
+.PHONY : naloga1_gennodejs
+
+# fast build rule for target.
+naloga1_gennodejs/fast:
+	$(MAKE) -f naloga1/CMakeFiles/naloga1_gennodejs.dir/build.make naloga1/CMakeFiles/naloga1_gennodejs.dir/build
+.PHONY : naloga1_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named naloga1_generate_messages_py
+
+# Build rule for target.
+naloga1_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 naloga1_generate_messages_py
+.PHONY : naloga1_generate_messages_py
+
+# fast build rule for target.
+naloga1_generate_messages_py/fast:
+	$(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_py.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_py.dir/build
+.PHONY : naloga1_generate_messages_py/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -880,6 +1127,25 @@ help:
 	@echo "... pubvel"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... service_server_node"
+	@echo "... simple_publisher_node"
+	@echo "... naloga1_generate_messages"
+	@echo "... naloga1_generate_messages_eus"
+	@echo "... simple_subscriber_node"
+	@echo "... _naloga1_generate_messages_check_deps_CustomMessage"
+	@echo "... naloga1_generate_messages_lisp"
+	@echo "... _naloga1_generate_messages_check_deps_Sum"
+	@echo "... naloga1_gencpp"
+	@echo "... custom_publisher_node"
+	@echo "... naloga1_generate_messages_cpp"
+	@echo "... naloga1_geneus"
+	@echo "... service_client_node"
+	@echo "... naloga1_genpy"
+	@echo "... naloga1_genlisp"
+	@echo "... naloga1_generate_messages_nodejs"
+	@echo "... custom_subscriber_node"
+	@echo "... naloga1_gennodejs"
+	@echo "... naloga1_generate_messages_py"
 .PHONY : help
 
 

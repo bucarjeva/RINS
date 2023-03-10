@@ -133,6 +133,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/it/Documents/ROS/build/gtest/cmake_install.cmake")
   include("/home/it/Documents/ROS/build/exercise1/cmake_install.cmake")
   include("/home/it/Documents/ROS/build/exercise2/cmake_install.cmake")
+  include("/home/it/Documents/ROS/build/naloga1/cmake_install.cmake")
 
 endif()
 
