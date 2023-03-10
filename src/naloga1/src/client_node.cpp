@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include <sstream>
 #include <stdlib.h> 
+#include <time.h>
 
 int main(int argc, char **argv)
 {
@@ -14,8 +15,9 @@ int main(int argc, char **argv)
 
   naloga1::Sum srv;
 
+  srand((unsigned)time(NULL));
   std::stringstream ss;
-  std::vector<int> arr(10);
+  std::vector<int> arr;
   int r;
   for (int i = 0; i < 10; i++){
     r = rand() % 10;

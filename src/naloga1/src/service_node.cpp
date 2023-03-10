@@ -9,12 +9,11 @@ bool sum(naloga1::Sum::Request &req, naloga1::Sum::Response &res){
   std::stringstream ss;
   int result = 0;
   for (int i = 0; i < 10; i++){
-    ROS_INFO("I heard: %d", req.nums.at(i));
-    result += req.nums[i];
+    result += req.nums.at(i);
     ss << req.nums.at(i) << " + ";
   }
   res.result = result;
-  ROS_INFO("request: %s =, response: %d", ss.str().c_str(), result);
+  ROS_INFO("request: %s\b\b =, response: %d", ss.str().c_str(), result);
   return true;
 }
 
