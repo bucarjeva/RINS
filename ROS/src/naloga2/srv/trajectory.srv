@@ -1,0 +1,6 @@
+#request
+string content
+int32 duration
+---
+#response
+string content
