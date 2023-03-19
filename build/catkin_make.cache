@@ -1,2 +1,0 @@
-exercise1:exercise2:naloga1
--DCATKIN_DEVEL_PREFIX=/home/it/Documents/ROS/devel -DCMAKE_INSTALL_PREFIX=/home/it/Documents/ROS/install -G Unix Makefiles
