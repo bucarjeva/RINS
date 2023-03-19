@@ -1,5 +1,0 @@
-#request
-int32[] nums
----
-#response
-int32 result
