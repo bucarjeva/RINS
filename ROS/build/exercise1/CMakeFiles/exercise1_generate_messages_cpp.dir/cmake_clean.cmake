@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/include/exercise1/Greeting.h"
-  "/home/it/Documents/ROS/devel/include/exercise1/Reverse.h"
+  "/home/it/Documents/ros/ROS/devel/include/exercise1/Greeting.h"
+  "/home/it/Documents/ros/ROS/devel/include/exercise1/Reverse.h"
   "CMakeFiles/exercise1_generate_messages_cpp"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/share/gennodejs/ros/naloga1/msg/CustomMessage.js"
-  "/home/it/Documents/ROS/devel/share/gennodejs/ros/naloga1/srv/Sum.js"
+  "/home/it/Documents/ros/ROS/devel/share/gennodejs/ros/naloga1/msg/CustomMessage.js"
+  "/home/it/Documents/ros/ROS/devel/share/gennodejs/ros/naloga1/srv/Sum.js"
   "CMakeFiles/naloga1_generate_messages_nodejs"
 )
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/it/Documents/ROS/src/exercise2/src/pubvel.cpp
+/home/it/Documents/ros/ROS/src/exercise2/src/pubvel.cpp
 ros/ros.h
 -
 geometry_msgs/Twist.h

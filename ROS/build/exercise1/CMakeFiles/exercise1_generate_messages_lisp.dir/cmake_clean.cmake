@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/msg/Greeting.lisp"
-  "/home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/srv/Reverse.lisp"
+  "/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/msg/Greeting.lisp"
+  "/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/srv/Reverse.lisp"
   "CMakeFiles/exercise1_generate_messages_lisp"
 )
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/share/roseus/ros/naloga1/manifest.l"
-  "/home/it/Documents/ROS/devel/share/roseus/ros/naloga1/msg/CustomMessage.l"
-  "/home/it/Documents/ROS/devel/share/roseus/ros/naloga1/srv/Sum.l"
+  "/home/it/Documents/ros/ROS/devel/share/roseus/ros/naloga1/manifest.l"
+  "/home/it/Documents/ros/ROS/devel/share/roseus/ros/naloga1/msg/CustomMessage.l"
+  "/home/it/Documents/ros/ROS/devel/share/roseus/ros/naloga1/srv/Sum.l"
   "CMakeFiles/naloga1_generate_messages_eus"
 )
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ exercise2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build: geometry_msg
 .PHONY : exercise2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 
 exercise2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	cd /home/it/Documents/ROS/build/exercise2 && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/it/Documents/ros/ROS/build/exercise2 && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : exercise2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 exercise2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ROS/src /home/it/Documents/ROS/src/exercise2 /home/it/Documents/ROS/build /home/it/Documents/ROS/build/exercise2 /home/it/Documents/ROS/build/exercise2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ros/ROS/src /home/it/Documents/ros/ROS/src/exercise2 /home/it/Documents/ros/ROS/build /home/it/Documents/ros/ROS/build/exercise2 /home/it/Documents/ros/ROS/build/exercise2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : exercise2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 

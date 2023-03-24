@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/include/naloga2/trajectory.h"
+  "/home/it/Documents/ros/ROS/devel/include/naloga2/trajectory.h"
   "CMakeFiles/naloga2_generate_messages_cpp"
 )
 

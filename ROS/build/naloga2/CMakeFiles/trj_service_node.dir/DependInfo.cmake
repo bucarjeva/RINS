@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/it/Documents/ROS/src/naloga2/src/service_node.cpp" "/home/it/Documents/ROS/build/naloga2/CMakeFiles/trj_service_node.dir/src/service_node.cpp.o"
+  "/home/it/Documents/ros/ROS/src/naloga2/src/service_node.cpp" "/home/it/Documents/ros/ROS/build/naloga2/CMakeFiles/trj_service_node.dir/src/service_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/it/Documents/ROS/devel/include"
-  "/home/it/Documents/ROS/src/naloga2/include"
+  "/home/it/Documents/ros/ROS/devel/include"
+  "/home/it/Documents/ros/ROS/src/naloga2/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

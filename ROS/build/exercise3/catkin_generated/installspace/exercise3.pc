@@ -1,0 +1,8 @@
+prefix=/home/it/Documents/ros/ROS/install
+
+Name: exercise3
+Description: Description of exercise3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

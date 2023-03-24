@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/lib/naloga1/custom_publisher_node"
-  "/home/it/Documents/ROS/devel/lib/naloga1/custom_publisher_node.pdb"
+  "/home/it/Documents/ros/ROS/devel/lib/naloga1/custom_publisher_node"
+  "/home/it/Documents/ros/ROS/devel/lib/naloga1/custom_publisher_node.pdb"
   "CMakeFiles/custom_publisher_node.dir/src/custom_publisher_node.cpp.o"
 )
 

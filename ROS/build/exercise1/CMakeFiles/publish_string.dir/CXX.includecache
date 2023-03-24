@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/it/Documents/ROS/src/exercise1/src/publish_string_node.cpp
+/home/it/Documents/ros/ROS/src/exercise1/src/publish_string_node.cpp
 ros/ros.h
 -
 std_msgs/String.h
-/home/it/Documents/ROS/src/exercise1/src/std_msgs/String.h
+/home/it/Documents/ros/ROS/src/exercise1/src/std_msgs/String.h
 sstream
 -
 

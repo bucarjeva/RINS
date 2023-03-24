@@ -60,7 +60,7 @@ bool trj(naloga2::trajectory::Request &req, naloga2::trajectory::Response &res){
         rate.sleep();
     }
   res.content = req.content;
-  ROS_INFO("request: %s %d", req.content, req.duration);
+  ROS_INFO("request: %s %d", req.content.c_str(), req.duration);
   return true;
 }
 

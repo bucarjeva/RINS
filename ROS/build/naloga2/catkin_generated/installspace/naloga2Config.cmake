@@ -67,14 +67,14 @@ set(naloga2_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(naloga2_SOURCE_PREFIX /home/it/Documents/ROS/src/naloga2)
-  set(naloga2_DEVEL_PREFIX /home/it/Documents/ROS/devel)
+  set(naloga2_SOURCE_PREFIX /home/it/Documents/ros/ROS/src/naloga2)
+  set(naloga2_DEVEL_PREFIX /home/it/Documents/ros/ROS/devel)
   set(naloga2_INSTALL_PREFIX "")
   set(naloga2_PREFIX ${naloga2_DEVEL_PREFIX})
 else()
   set(naloga2_SOURCE_PREFIX "")
   set(naloga2_DEVEL_PREFIX "")
-  set(naloga2_INSTALL_PREFIX /home/it/Documents/ROS/install)
+  set(naloga2_INSTALL_PREFIX /home/it/Documents/ros/ROS/install)
   set(naloga2_PREFIX ${naloga2_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/it/Documents/ROS/install/lib;/home/it/Documents/ROS/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/it/Documents/ros/ROS/install/lib;/home/it/Documents/ros/ROS_TURTLE/devel/lib;/home/it/Documents/ros/ROS/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

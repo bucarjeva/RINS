@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -63,10 +63,10 @@ exercise1/CMakeFiles/roscpp_generate_messages_py.dir/build: roscpp_generate_mess
 .PHONY : exercise1/CMakeFiles/roscpp_generate_messages_py.dir/build
 
 exercise1/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	cd /home/it/Documents/ROS/build/exercise1 && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/it/Documents/ros/ROS/build/exercise1 && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : exercise1/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 exercise1/CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ROS/src /home/it/Documents/ROS/src/exercise1 /home/it/Documents/ROS/build /home/it/Documents/ROS/build/exercise1 /home/it/Documents/ROS/build/exercise1/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ros/ROS/src /home/it/Documents/ros/ROS/src/exercise1 /home/it/Documents/ros/ROS/build /home/it/Documents/ros/ROS/build/exercise1 /home/it/Documents/ros/ROS/build/exercise1/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : exercise1/CMakeFiles/roscpp_generate_messages_py.dir/depend
 

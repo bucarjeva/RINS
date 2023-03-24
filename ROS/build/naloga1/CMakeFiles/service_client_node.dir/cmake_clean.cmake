@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/lib/naloga1/service_client_node"
-  "/home/it/Documents/ROS/devel/lib/naloga1/service_client_node.pdb"
+  "/home/it/Documents/ros/ROS/devel/lib/naloga1/service_client_node"
+  "/home/it/Documents/ros/ROS/devel/lib/naloga1/service_client_node.pdb"
   "CMakeFiles/service_client_node.dir/src/client_node.cpp.o"
 )
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ exercise1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build: rosgraph_ms
 .PHONY : exercise1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 
 exercise1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	cd /home/it/Documents/ROS/build/exercise1 && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/it/Documents/ros/ROS/build/exercise1 && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : exercise1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 exercise1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ROS/src /home/it/Documents/ROS/src/exercise1 /home/it/Documents/ROS/build /home/it/Documents/ROS/build/exercise1 /home/it/Documents/ROS/build/exercise1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ros/ROS/src /home/it/Documents/ros/ROS/src/exercise1 /home/it/Documents/ros/ROS/build /home/it/Documents/ros/ROS/build/exercise1 /home/it/Documents/ros/ROS/build/exercise1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : exercise1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 # Include any dependencies generated for this target.
 include exercise2/CMakeFiles/pubvel.dir/depend.make
@@ -58,17 +58,17 @@ include exercise2/CMakeFiles/pubvel.dir/progress.make
 include exercise2/CMakeFiles/pubvel.dir/flags.make
 
 exercise2/CMakeFiles/pubvel.dir/src/pubvel.cpp.o: exercise2/CMakeFiles/pubvel.dir/flags.make
-exercise2/CMakeFiles/pubvel.dir/src/pubvel.cpp.o: /home/it/Documents/ROS/src/exercise2/src/pubvel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/it/Documents/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object exercise2/CMakeFiles/pubvel.dir/src/pubvel.cpp.o"
-	cd /home/it/Documents/ROS/build/exercise2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pubvel.dir/src/pubvel.cpp.o -c /home/it/Documents/ROS/src/exercise2/src/pubvel.cpp
+exercise2/CMakeFiles/pubvel.dir/src/pubvel.cpp.o: /home/it/Documents/ros/ROS/src/exercise2/src/pubvel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/it/Documents/ros/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object exercise2/CMakeFiles/pubvel.dir/src/pubvel.cpp.o"
+	cd /home/it/Documents/ros/ROS/build/exercise2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pubvel.dir/src/pubvel.cpp.o -c /home/it/Documents/ros/ROS/src/exercise2/src/pubvel.cpp
 
 exercise2/CMakeFiles/pubvel.dir/src/pubvel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pubvel.dir/src/pubvel.cpp.i"
-	cd /home/it/Documents/ROS/build/exercise2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/it/Documents/ROS/src/exercise2/src/pubvel.cpp > CMakeFiles/pubvel.dir/src/pubvel.cpp.i
+	cd /home/it/Documents/ros/ROS/build/exercise2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/it/Documents/ros/ROS/src/exercise2/src/pubvel.cpp > CMakeFiles/pubvel.dir/src/pubvel.cpp.i
 
 exercise2/CMakeFiles/pubvel.dir/src/pubvel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pubvel.dir/src/pubvel.cpp.s"
-	cd /home/it/Documents/ROS/build/exercise2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/it/Documents/ROS/src/exercise2/src/pubvel.cpp -o CMakeFiles/pubvel.dir/src/pubvel.cpp.s
+	cd /home/it/Documents/ros/ROS/build/exercise2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/it/Documents/ros/ROS/src/exercise2/src/pubvel.cpp -o CMakeFiles/pubvel.dir/src/pubvel.cpp.s
 
 # Object files for target pubvel
 pubvel_OBJECTS = \
@@ -77,39 +77,39 @@ pubvel_OBJECTS = \
 # External object files for target pubvel
 pubvel_EXTERNAL_OBJECTS =
 
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: exercise2/CMakeFiles/pubvel.dir/src/pubvel.cpp.o
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: exercise2/CMakeFiles/pubvel.dir/build.make
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/libroscpp.so
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/librosconsole.so
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/librostime.so
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/libcpp_common.so
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/it/Documents/ROS/devel/lib/exercise2/pubvel: exercise2/CMakeFiles/pubvel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/it/Documents/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/it/Documents/ROS/devel/lib/exercise2/pubvel"
-	cd /home/it/Documents/ROS/build/exercise2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pubvel.dir/link.txt --verbose=$(VERBOSE)
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: exercise2/CMakeFiles/pubvel.dir/src/pubvel.cpp.o
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: exercise2/CMakeFiles/pubvel.dir/build.make
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/libroscpp.so
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/librosconsole.so
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/librostime.so
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /opt/ros/noetic/lib/libcpp_common.so
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel: exercise2/CMakeFiles/pubvel.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/it/Documents/ros/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel"
+	cd /home/it/Documents/ros/ROS/build/exercise2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pubvel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-exercise2/CMakeFiles/pubvel.dir/build: /home/it/Documents/ROS/devel/lib/exercise2/pubvel
+exercise2/CMakeFiles/pubvel.dir/build: /home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel
 
 .PHONY : exercise2/CMakeFiles/pubvel.dir/build
 
 exercise2/CMakeFiles/pubvel.dir/clean:
-	cd /home/it/Documents/ROS/build/exercise2 && $(CMAKE_COMMAND) -P CMakeFiles/pubvel.dir/cmake_clean.cmake
+	cd /home/it/Documents/ros/ROS/build/exercise2 && $(CMAKE_COMMAND) -P CMakeFiles/pubvel.dir/cmake_clean.cmake
 .PHONY : exercise2/CMakeFiles/pubvel.dir/clean
 
 exercise2/CMakeFiles/pubvel.dir/depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ROS/src /home/it/Documents/ROS/src/exercise2 /home/it/Documents/ROS/build /home/it/Documents/ROS/build/exercise2 /home/it/Documents/ROS/build/exercise2/CMakeFiles/pubvel.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ros/ROS/src /home/it/Documents/ros/ROS/src/exercise2 /home/it/Documents/ros/ROS/build /home/it/Documents/ros/ROS/build/exercise2 /home/it/Documents/ros/ROS/build/exercise2/CMakeFiles/pubvel.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : exercise2/CMakeFiles/pubvel.dir/depend
 

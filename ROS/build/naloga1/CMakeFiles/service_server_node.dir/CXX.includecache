@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/it/Documents/ROS/devel/include/naloga1/Sum.h
+/home/it/Documents/ros/ROS/devel/include/naloga1/Sum.h
 ros/service_traits.h
 -
 naloga1/SumRequest.h
@@ -14,7 +14,7 @@ naloga1/SumRequest.h
 naloga1/SumResponse.h
 -
 
-/home/it/Documents/ROS/devel/include/naloga1/SumRequest.h
+/home/it/Documents/ros/ROS/devel/include/naloga1/SumRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/it/Documents/ROS/devel/include/naloga1/SumResponse.h
+/home/it/Documents/ros/ROS/devel/include/naloga1/SumResponse.h
 string
 -
 vector
@@ -46,11 +46,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/it/Documents/ROS/src/naloga1/src/service_node.cpp
+/home/it/Documents/ros/ROS/src/naloga1/src/service_node.cpp
 ros/ros.h
-/home/it/Documents/ROS/src/naloga1/src/ros/ros.h
+/home/it/Documents/ros/ROS/src/naloga1/src/ros/ros.h
 naloga1/Sum.h
-/home/it/Documents/ROS/src/naloga1/src/naloga1/Sum.h
+/home/it/Documents/ros/ROS/src/naloga1/src/naloga1/Sum.h
 string
 -
 sstream

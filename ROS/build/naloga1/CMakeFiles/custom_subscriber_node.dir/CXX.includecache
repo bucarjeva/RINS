@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/it/Documents/ROS/devel/include/naloga1/CustomMessage.h
+/home/it/Documents/ros/ROS/devel/include/naloga1/CustomMessage.h
 string
 -
 vector
@@ -22,11 +22,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/it/Documents/ROS/src/naloga1/src/custom_subscriber_node.cpp
+/home/it/Documents/ros/ROS/src/naloga1/src/custom_subscriber_node.cpp
 ros/ros.h
 -
 naloga1/CustomMessage.h
-/home/it/Documents/ROS/src/naloga1/src/naloga1/CustomMessage.h
+/home/it/Documents/ros/ROS/src/naloga1/src/naloga1/CustomMessage.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

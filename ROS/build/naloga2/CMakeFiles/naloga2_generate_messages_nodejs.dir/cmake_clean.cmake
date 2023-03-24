@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/share/gennodejs/ros/naloga2/srv/trajectory.js"
+  "/home/it/Documents/ros/ROS/devel/share/gennodejs/ros/naloga2/srv/trajectory.js"
   "CMakeFiles/naloga2_generate_messages_nodejs"
 )
 

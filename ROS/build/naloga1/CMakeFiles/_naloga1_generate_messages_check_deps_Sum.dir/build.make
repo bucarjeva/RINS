@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 # Utility rule file for _naloga1_generate_messages_check_deps_Sum.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
 include naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/progress.make
 
 naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum:
-	cd /home/it/Documents/ROS/build/naloga1 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py naloga1 /home/it/Documents/ROS/src/naloga1/srv/Sum.srv 
+	cd /home/it/Documents/ros/ROS/build/naloga1 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py naloga1 /home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv 
 
 _naloga1_generate_messages_check_deps_Sum: naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum
 _naloga1_generate_messages_check_deps_Sum: naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/build.make
@@ -67,10 +67,10 @@ naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/build: _naloga1
 .PHONY : naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/build
 
 naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/clean:
-	cd /home/it/Documents/ROS/build/naloga1 && $(CMAKE_COMMAND) -P CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/cmake_clean.cmake
+	cd /home/it/Documents/ros/ROS/build/naloga1 && $(CMAKE_COMMAND) -P CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/cmake_clean.cmake
 .PHONY : naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/clean
 
 naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ROS/src /home/it/Documents/ROS/src/naloga1 /home/it/Documents/ROS/build /home/it/Documents/ROS/build/naloga1 /home/it/Documents/ROS/build/naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ros/ROS/src /home/it/Documents/ros/ROS/src/naloga1 /home/it/Documents/ros/ROS/build /home/it/Documents/ros/ROS/build/naloga1 /home/it/Documents/ros/ROS/build/naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/depend
 

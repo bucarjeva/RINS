@@ -1,8 +1,8 @@
-# Install script for directory: /home/it/Documents/ROS/src/naloga2
+# Install script for directory: /home/it/Documents/ros/ROS/src/naloga2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/it/Documents/ROS/install")
+  set(CMAKE_INSTALL_PREFIX "/home/it/Documents/ros/ROS/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/naloga2/srv" TYPE FILE FILES "/home/it/Documents/ROS/src/naloga2/srv/trajectory.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/naloga2/srv" TYPE FILE FILES "/home/it/Documents/ros/ROS/src/naloga2/srv/trajectory.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/naloga2/cmake" TYPE FILE FILES "/home/it/Documents/ROS/build/naloga2/catkin_generated/installspace/naloga2-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/naloga2/cmake" TYPE FILE FILES "/home/it/Documents/ros/ROS/build/naloga2/catkin_generated/installspace/naloga2-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/it/Documents/ROS/devel/include/naloga2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/it/Documents/ros/ROS/devel/include/naloga2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/it/Documents/ROS/devel/share/roseus/ros/naloga2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/it/Documents/ros/ROS/devel/share/roseus/ros/naloga2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/it/Documents/ROS/devel/share/common-lisp/ros/naloga2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/naloga2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/it/Documents/ROS/devel/share/gennodejs/ros/naloga2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/it/Documents/ros/ROS/devel/share/gennodejs/ros/naloga2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/it/Documents/ROS/build/naloga2/catkin_generated/installspace/naloga2.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/it/Documents/ros/ROS/build/naloga2/catkin_generated/installspace/naloga2.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/naloga2/cmake" TYPE FILE FILES "/home/it/Documents/ROS/build/naloga2/catkin_generated/installspace/naloga2-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/naloga2/cmake" TYPE FILE FILES "/home/it/Documents/ros/ROS/build/naloga2/catkin_generated/installspace/naloga2-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/naloga2/cmake" TYPE FILE FILES
-    "/home/it/Documents/ROS/build/naloga2/catkin_generated/installspace/naloga2Config.cmake"
-    "/home/it/Documents/ROS/build/naloga2/catkin_generated/installspace/naloga2Config-version.cmake"
+    "/home/it/Documents/ros/ROS/build/naloga2/catkin_generated/installspace/naloga2Config.cmake"
+    "/home/it/Documents/ros/ROS/build/naloga2/catkin_generated/installspace/naloga2Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/naloga2" TYPE FILE FILES "/home/it/Documents/ROS/src/naloga2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/naloga2" TYPE FILE FILES "/home/it/Documents/ros/ROS/src/naloga2/package.xml")
 endif()
 

@@ -2,7 +2,7 @@
 
 message(STATUS "naloga1: 1 messages, 1 services")
 
-set(MSG_I_FLAGS "-Inaloga1:/home/it/Documents/ROS/src/naloga1/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Inaloga1:/home/it/Documents/ros/ROS/src/naloga1/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,14 +17,14 @@ add_custom_target(naloga1_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
 add_custom_target(_naloga1_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "naloga1" "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "naloga1" "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg" ""
 )
 
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
 add_custom_target(_naloga1_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "naloga1" "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "naloga1" "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv" ""
 )
 
 #
@@ -34,7 +34,7 @@ add_custom_target(_naloga1_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(naloga1
-  "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg"
+  "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/naloga1
@@ -42,7 +42,7 @@ _generate_msg_cpp(naloga1
 
 ### Generating Services
 _generate_srv_cpp(naloga1
-  "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv"
+  "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/naloga1
@@ -60,9 +60,9 @@ add_custom_target(naloga1_generate_messages_cpp
 add_dependencies(naloga1_generate_messages naloga1_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
 add_dependencies(naloga1_generate_messages_cpp _naloga1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
 add_dependencies(naloga1_generate_messages_cpp _naloga1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -75,7 +75,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS naloga1_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(naloga1
-  "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg"
+  "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/naloga1
@@ -83,7 +83,7 @@ _generate_msg_eus(naloga1
 
 ### Generating Services
 _generate_srv_eus(naloga1
-  "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv"
+  "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/naloga1
@@ -101,9 +101,9 @@ add_custom_target(naloga1_generate_messages_eus
 add_dependencies(naloga1_generate_messages naloga1_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
 add_dependencies(naloga1_generate_messages_eus _naloga1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
 add_dependencies(naloga1_generate_messages_eus _naloga1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -116,7 +116,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS naloga1_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(naloga1
-  "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg"
+  "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/naloga1
@@ -124,7 +124,7 @@ _generate_msg_lisp(naloga1
 
 ### Generating Services
 _generate_srv_lisp(naloga1
-  "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv"
+  "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/naloga1
@@ -142,9 +142,9 @@ add_custom_target(naloga1_generate_messages_lisp
 add_dependencies(naloga1_generate_messages naloga1_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
 add_dependencies(naloga1_generate_messages_lisp _naloga1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
 add_dependencies(naloga1_generate_messages_lisp _naloga1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -157,7 +157,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS naloga1_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(naloga1
-  "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg"
+  "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/naloga1
@@ -165,7 +165,7 @@ _generate_msg_nodejs(naloga1
 
 ### Generating Services
 _generate_srv_nodejs(naloga1
-  "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv"
+  "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/naloga1
@@ -183,9 +183,9 @@ add_custom_target(naloga1_generate_messages_nodejs
 add_dependencies(naloga1_generate_messages naloga1_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
 add_dependencies(naloga1_generate_messages_nodejs _naloga1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
 add_dependencies(naloga1_generate_messages_nodejs _naloga1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -198,7 +198,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS naloga1_generate_messages_nodejs)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(naloga1
-  "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg"
+  "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/naloga1
@@ -206,7 +206,7 @@ _generate_msg_py(naloga1
 
 ### Generating Services
 _generate_srv_py(naloga1
-  "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv"
+  "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/naloga1
@@ -224,9 +224,9 @@ add_custom_target(naloga1_generate_messages_py
 add_dependencies(naloga1_generate_messages naloga1_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg" NAME_WE)
 add_dependencies(naloga1_generate_messages_py _naloga1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/it/Documents/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
+get_filename_component(_filename "/home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv" NAME_WE)
 add_dependencies(naloga1_generate_messages_py _naloga1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

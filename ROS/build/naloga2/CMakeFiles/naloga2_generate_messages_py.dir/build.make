@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 # Utility rule file for naloga2_generate_messages_py.
 
 # Include the progress variables for this target.
 include naloga2/CMakeFiles/naloga2_generate_messages_py.dir/progress.make
 
-naloga2/CMakeFiles/naloga2_generate_messages_py: /home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py
-naloga2/CMakeFiles/naloga2_generate_messages_py: /home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv/__init__.py
+naloga2/CMakeFiles/naloga2_generate_messages_py: /home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py
+naloga2/CMakeFiles/naloga2_generate_messages_py: /home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv/__init__.py
 
 
-/home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py: /home/it/Documents/ROS/src/naloga2/srv/trajectory.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV naloga2/trajectory"
-	cd /home/it/Documents/ROS/build/naloga2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/it/Documents/ROS/src/naloga2/srv/trajectory.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p naloga2 -o /home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv
+/home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py: /home/it/Documents/ros/ROS/src/naloga2/srv/trajectory.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ros/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV naloga2/trajectory"
+	cd /home/it/Documents/ros/ROS/build/naloga2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/it/Documents/ros/ROS/src/naloga2/srv/trajectory.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p naloga2 -o /home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv
 
-/home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv/__init__.py: /home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for naloga2"
-	cd /home/it/Documents/ROS/build/naloga2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv --initpy
+/home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv/__init__.py: /home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ros/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for naloga2"
+	cd /home/it/Documents/ros/ROS/build/naloga2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv --initpy
 
 naloga2_generate_messages_py: naloga2/CMakeFiles/naloga2_generate_messages_py
-naloga2_generate_messages_py: /home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py
-naloga2_generate_messages_py: /home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv/__init__.py
+naloga2_generate_messages_py: /home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py
+naloga2_generate_messages_py: /home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv/__init__.py
 naloga2_generate_messages_py: naloga2/CMakeFiles/naloga2_generate_messages_py.dir/build.make
 
 .PHONY : naloga2_generate_messages_py
@@ -80,10 +80,10 @@ naloga2/CMakeFiles/naloga2_generate_messages_py.dir/build: naloga2_generate_mess
 .PHONY : naloga2/CMakeFiles/naloga2_generate_messages_py.dir/build
 
 naloga2/CMakeFiles/naloga2_generate_messages_py.dir/clean:
-	cd /home/it/Documents/ROS/build/naloga2 && $(CMAKE_COMMAND) -P CMakeFiles/naloga2_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/it/Documents/ros/ROS/build/naloga2 && $(CMAKE_COMMAND) -P CMakeFiles/naloga2_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : naloga2/CMakeFiles/naloga2_generate_messages_py.dir/clean
 
 naloga2/CMakeFiles/naloga2_generate_messages_py.dir/depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ROS/src /home/it/Documents/ROS/src/naloga2 /home/it/Documents/ROS/build /home/it/Documents/ROS/build/naloga2 /home/it/Documents/ROS/build/naloga2/CMakeFiles/naloga2_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ros/ROS/src /home/it/Documents/ros/ROS/src/naloga2 /home/it/Documents/ros/ROS/build /home/it/Documents/ros/ROS/build/naloga2 /home/it/Documents/ros/ROS/build/naloga2/CMakeFiles/naloga2_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : naloga2/CMakeFiles/naloga2_generate_messages_py.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/lib/exercise1/hello_world"
-  "/home/it/Documents/ROS/devel/lib/exercise1/hello_world.pdb"
+  "/home/it/Documents/ros/ROS/devel/lib/exercise1/hello_world"
+  "/home/it/Documents/ros/ROS/devel/lib/exercise1/hello_world.pdb"
   "CMakeFiles/hello_world.dir/src/hello_world_node.cpp.o"
 )
 

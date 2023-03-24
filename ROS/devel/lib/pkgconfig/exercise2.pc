@@ -1,4 +1,4 @@
-prefix=/home/it/Documents/ROS/devel
+prefix=/home/it/Documents/ros/ROS/devel
 
 Name: exercise2
 Description: Description of exercise2

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv/__init__.py"
-  "/home/it/Documents/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py"
+  "/home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv/__init__.py"
+  "/home/it/Documents/ros/ROS/devel/lib/python3/dist-packages/naloga2/srv/_trajectory.py"
   "CMakeFiles/naloga2_generate_messages_py"
 )
 

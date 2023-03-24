@@ -1,8 +1,8 @@
-# Install script for directory: /home/it/Documents/ROS/src/exercise2
+# Install script for directory: /home/it/Documents/ros/ROS/src/exercise2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/it/Documents/ROS/install")
+  set(CMAKE_INSTALL_PREFIX "/home/it/Documents/ros/ROS/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/it/Documents/ROS/build/exercise2/catkin_generated/installspace/exercise2.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/it/Documents/ros/ROS/build/exercise2/catkin_generated/installspace/exercise2.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/exercise2/cmake" TYPE FILE FILES
-    "/home/it/Documents/ROS/build/exercise2/catkin_generated/installspace/exercise2Config.cmake"
-    "/home/it/Documents/ROS/build/exercise2/catkin_generated/installspace/exercise2Config-version.cmake"
+    "/home/it/Documents/ros/ROS/build/exercise2/catkin_generated/installspace/exercise2Config.cmake"
+    "/home/it/Documents/ros/ROS/build/exercise2/catkin_generated/installspace/exercise2Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/exercise2" TYPE FILE FILES "/home/it/Documents/ROS/src/exercise2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/exercise2" TYPE FILE FILES "/home/it/Documents/ros/ROS/src/exercise2/package.xml")
 endif()
 

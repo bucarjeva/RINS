@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/lib/exercise1/client_node"
-  "/home/it/Documents/ROS/devel/lib/exercise1/client_node.pdb"
+  "/home/it/Documents/ros/ROS/devel/lib/exercise1/client_node"
+  "/home/it/Documents/ros/ROS/devel/lib/exercise1/client_node.pdb"
   "CMakeFiles/client_node.dir/src/client_node.cpp.o"
 )
 

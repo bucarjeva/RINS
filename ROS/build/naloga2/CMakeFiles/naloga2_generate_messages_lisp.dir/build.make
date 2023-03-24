@@ -43,26 +43,26 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 # Utility rule file for naloga2_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include naloga2/CMakeFiles/naloga2_generate_messages_lisp.dir/progress.make
 
-naloga2/CMakeFiles/naloga2_generate_messages_lisp: /home/it/Documents/ROS/devel/share/common-lisp/ros/naloga2/srv/trajectory.lisp
+naloga2/CMakeFiles/naloga2_generate_messages_lisp: /home/it/Documents/ros/ROS/devel/share/common-lisp/ros/naloga2/srv/trajectory.lisp
 
 
-/home/it/Documents/ROS/devel/share/common-lisp/ros/naloga2/srv/trajectory.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/it/Documents/ROS/devel/share/common-lisp/ros/naloga2/srv/trajectory.lisp: /home/it/Documents/ROS/src/naloga2/srv/trajectory.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from naloga2/trajectory.srv"
-	cd /home/it/Documents/ROS/build/naloga2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/it/Documents/ROS/src/naloga2/srv/trajectory.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p naloga2 -o /home/it/Documents/ROS/devel/share/common-lisp/ros/naloga2/srv
+/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/naloga2/srv/trajectory.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/naloga2/srv/trajectory.lisp: /home/it/Documents/ros/ROS/src/naloga2/srv/trajectory.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ros/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from naloga2/trajectory.srv"
+	cd /home/it/Documents/ros/ROS/build/naloga2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/it/Documents/ros/ROS/src/naloga2/srv/trajectory.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p naloga2 -o /home/it/Documents/ros/ROS/devel/share/common-lisp/ros/naloga2/srv
 
 naloga2_generate_messages_lisp: naloga2/CMakeFiles/naloga2_generate_messages_lisp
-naloga2_generate_messages_lisp: /home/it/Documents/ROS/devel/share/common-lisp/ros/naloga2/srv/trajectory.lisp
+naloga2_generate_messages_lisp: /home/it/Documents/ros/ROS/devel/share/common-lisp/ros/naloga2/srv/trajectory.lisp
 naloga2_generate_messages_lisp: naloga2/CMakeFiles/naloga2_generate_messages_lisp.dir/build.make
 
 .PHONY : naloga2_generate_messages_lisp
@@ -73,10 +73,10 @@ naloga2/CMakeFiles/naloga2_generate_messages_lisp.dir/build: naloga2_generate_me
 .PHONY : naloga2/CMakeFiles/naloga2_generate_messages_lisp.dir/build
 
 naloga2/CMakeFiles/naloga2_generate_messages_lisp.dir/clean:
-	cd /home/it/Documents/ROS/build/naloga2 && $(CMAKE_COMMAND) -P CMakeFiles/naloga2_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/it/Documents/ros/ROS/build/naloga2 && $(CMAKE_COMMAND) -P CMakeFiles/naloga2_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : naloga2/CMakeFiles/naloga2_generate_messages_lisp.dir/clean
 
 naloga2/CMakeFiles/naloga2_generate_messages_lisp.dir/depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ROS/src /home/it/Documents/ROS/src/naloga2 /home/it/Documents/ROS/build /home/it/Documents/ROS/build/naloga2 /home/it/Documents/ROS/build/naloga2/CMakeFiles/naloga2_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ros/ROS/src /home/it/Documents/ros/ROS/src/naloga2 /home/it/Documents/ros/ROS/build /home/it/Documents/ros/ROS/build/naloga2 /home/it/Documents/ros/ROS/build/naloga2/CMakeFiles/naloga2_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : naloga2/CMakeFiles/naloga2_generate_messages_lisp.dir/depend
 

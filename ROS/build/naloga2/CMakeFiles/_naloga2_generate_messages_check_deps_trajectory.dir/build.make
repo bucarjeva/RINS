@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 # Utility rule file for _naloga2_generate_messages_check_deps_trajectory.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
 include naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/progress.make
 
 naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory:
-	cd /home/it/Documents/ROS/build/naloga2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py naloga2 /home/it/Documents/ROS/src/naloga2/srv/trajectory.srv 
+	cd /home/it/Documents/ros/ROS/build/naloga2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py naloga2 /home/it/Documents/ros/ROS/src/naloga2/srv/trajectory.srv 
 
 _naloga2_generate_messages_check_deps_trajectory: naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory
 _naloga2_generate_messages_check_deps_trajectory: naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/build.make
@@ -67,10 +67,10 @@ naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/build: _
 .PHONY : naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/build
 
 naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/clean:
-	cd /home/it/Documents/ROS/build/naloga2 && $(CMAKE_COMMAND) -P CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/cmake_clean.cmake
+	cd /home/it/Documents/ros/ROS/build/naloga2 && $(CMAKE_COMMAND) -P CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/cmake_clean.cmake
 .PHONY : naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/clean
 
 naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ROS/src /home/it/Documents/ROS/src/naloga2 /home/it/Documents/ROS/build /home/it/Documents/ROS/build/naloga2 /home/it/Documents/ROS/build/naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ros/ROS/src /home/it/Documents/ros/ROS/src/naloga2 /home/it/Documents/ros/ROS/build /home/it/Documents/ros/ROS/build/naloga2 /home/it/Documents/ros/ROS/build/naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : naloga2/CMakeFiles/_naloga2_generate_messages_check_deps_trajectory.dir/depend
 

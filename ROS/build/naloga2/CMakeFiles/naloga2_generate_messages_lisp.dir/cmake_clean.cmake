@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/share/common-lisp/ros/naloga2/srv/trajectory.lisp"
+  "/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/naloga2/srv/trajectory.lisp"
   "CMakeFiles/naloga2_generate_messages_lisp"
 )
 

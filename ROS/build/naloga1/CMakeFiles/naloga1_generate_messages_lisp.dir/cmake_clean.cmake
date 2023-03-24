@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/share/common-lisp/ros/naloga1/msg/CustomMessage.lisp"
-  "/home/it/Documents/ROS/devel/share/common-lisp/ros/naloga1/srv/Sum.lisp"
+  "/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/naloga1/msg/CustomMessage.lisp"
+  "/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/naloga1/srv/Sum.lisp"
   "CMakeFiles/naloga1_generate_messages_lisp"
 )
 

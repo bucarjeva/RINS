@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/lib/exercise1/subscribe_string"
-  "/home/it/Documents/ROS/devel/lib/exercise1/subscribe_string.pdb"
+  "/home/it/Documents/ros/ROS/devel/lib/exercise1/subscribe_string"
+  "/home/it/Documents/ros/ROS/devel/lib/exercise1/subscribe_string.pdb"
   "CMakeFiles/subscribe_string.dir/src/subscribe_string_node.cpp.o"
 )
 

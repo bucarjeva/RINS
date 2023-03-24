@@ -1,4 +1,4 @@
-prefix=/home/it/Documents/ROS/install
+prefix=/home/it/Documents/ros/ROS/install
 
 Name: naloga2
 Description: Description of naloga2

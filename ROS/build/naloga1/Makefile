@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/it/Documents/ROS/build/CMakeFiles /home/it/Documents/ROS/build/naloga1/CMakeFiles/progress.marks
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/it/Documents/ROS/build/CMakeFiles 0
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/it/Documents/ros/ROS/build/CMakeFiles /home/it/Documents/ros/ROS/build/naloga1/CMakeFiles/progress.marks
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/it/Documents/ros/ROS/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/clean
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/preinstall
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/preinstall
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 naloga1/CMakeFiles/service_server_node.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/service_server_node.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/service_server_node.dir/rule
 .PHONY : naloga1/CMakeFiles/service_server_node.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ service_server_node: naloga1/CMakeFiles/service_server_node.dir/rule
 
 # fast build rule for target.
 service_server_node/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_server_node.dir/build.make naloga1/CMakeFiles/service_server_node.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_server_node.dir/build.make naloga1/CMakeFiles/service_server_node.dir/build
 .PHONY : service_server_node/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/simple_publisher_node.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/simple_publisher_node.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/simple_publisher_node.dir/rule
 .PHONY : naloga1/CMakeFiles/simple_publisher_node.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ simple_publisher_node: naloga1/CMakeFiles/simple_publisher_node.dir/rule
 
 # fast build rule for target.
 simple_publisher_node/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_publisher_node.dir/build.make naloga1/CMakeFiles/simple_publisher_node.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_publisher_node.dir/build.make naloga1/CMakeFiles/simple_publisher_node.dir/build
 .PHONY : simple_publisher_node/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/naloga1_generate_messages.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages.dir/rule
 .PHONY : naloga1/CMakeFiles/naloga1_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ naloga1_generate_messages: naloga1/CMakeFiles/naloga1_generate_messages.dir/rule
 
 # fast build rule for target.
 naloga1_generate_messages/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages.dir/build
 .PHONY : naloga1_generate_messages/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/naloga1_generate_messages_eus.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages_eus.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages_eus.dir/rule
 .PHONY : naloga1/CMakeFiles/naloga1_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ naloga1_generate_messages_eus: naloga1/CMakeFiles/naloga1_generate_messages_eus.
 
 # fast build rule for target.
 naloga1_generate_messages_eus/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_eus.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_eus.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_eus.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_eus.dir/build
 .PHONY : naloga1_generate_messages_eus/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/simple_subscriber_node.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/simple_subscriber_node.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/simple_subscriber_node.dir/rule
 .PHONY : naloga1/CMakeFiles/simple_subscriber_node.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ simple_subscriber_node: naloga1/CMakeFiles/simple_subscriber_node.dir/rule
 
 # fast build rule for target.
 simple_subscriber_node/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_subscriber_node.dir/build.make naloga1/CMakeFiles/simple_subscriber_node.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_subscriber_node.dir/build.make naloga1/CMakeFiles/simple_subscriber_node.dir/build
 .PHONY : simple_subscriber_node/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_CustomMessage.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_CustomMessage.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_CustomMessage.dir/rule
 .PHONY : naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_CustomMessage.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ _naloga1_generate_messages_check_deps_CustomMessage: naloga1/CMakeFiles/_naloga1
 
 # fast build rule for target.
 _naloga1_generate_messages_check_deps_CustomMessage/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_CustomMessage.dir/build.make naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_CustomMessage.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_CustomMessage.dir/build.make naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_CustomMessage.dir/build
 .PHONY : _naloga1_generate_messages_check_deps_CustomMessage/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/naloga1_generate_messages_lisp.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages_lisp.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages_lisp.dir/rule
 .PHONY : naloga1/CMakeFiles/naloga1_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ naloga1_generate_messages_lisp: naloga1/CMakeFiles/naloga1_generate_messages_lis
 
 # fast build rule for target.
 naloga1_generate_messages_lisp/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_lisp.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_lisp.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_lisp.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_lisp.dir/build
 .PHONY : naloga1_generate_messages_lisp/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/rule
 .PHONY : naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ _naloga1_generate_messages_check_deps_Sum: naloga1/CMakeFiles/_naloga1_generate_
 
 # fast build rule for target.
 _naloga1_generate_messages_check_deps_Sum/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/build.make naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/build.make naloga1/CMakeFiles/_naloga1_generate_messages_check_deps_Sum.dir/build
 .PHONY : _naloga1_generate_messages_check_deps_Sum/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/naloga1_gencpp.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_gencpp.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_gencpp.dir/rule
 .PHONY : naloga1/CMakeFiles/naloga1_gencpp.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ naloga1_gencpp: naloga1/CMakeFiles/naloga1_gencpp.dir/rule
 
 # fast build rule for target.
 naloga1_gencpp/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_gencpp.dir/build.make naloga1/CMakeFiles/naloga1_gencpp.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_gencpp.dir/build.make naloga1/CMakeFiles/naloga1_gencpp.dir/build
 .PHONY : naloga1_gencpp/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/custom_publisher_node.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/custom_publisher_node.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/custom_publisher_node.dir/rule
 .PHONY : naloga1/CMakeFiles/custom_publisher_node.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ custom_publisher_node: naloga1/CMakeFiles/custom_publisher_node.dir/rule
 
 # fast build rule for target.
 custom_publisher_node/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_publisher_node.dir/build.make naloga1/CMakeFiles/custom_publisher_node.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_publisher_node.dir/build.make naloga1/CMakeFiles/custom_publisher_node.dir/build
 .PHONY : custom_publisher_node/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/rule
 .PHONY : naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ naloga1_generate_messages_cpp: naloga1/CMakeFiles/naloga1_generate_messages_cpp.
 
 # fast build rule for target.
 naloga1_generate_messages_cpp/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/build
 .PHONY : naloga1_generate_messages_cpp/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/naloga1_geneus.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_geneus.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_geneus.dir/rule
 .PHONY : naloga1/CMakeFiles/naloga1_geneus.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ naloga1_geneus: naloga1/CMakeFiles/naloga1_geneus.dir/rule
 
 # fast build rule for target.
 naloga1_geneus/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_geneus.dir/build.make naloga1/CMakeFiles/naloga1_geneus.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_geneus.dir/build.make naloga1/CMakeFiles/naloga1_geneus.dir/build
 .PHONY : naloga1_geneus/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/service_client_node.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/service_client_node.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/service_client_node.dir/rule
 .PHONY : naloga1/CMakeFiles/service_client_node.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ service_client_node: naloga1/CMakeFiles/service_client_node.dir/rule
 
 # fast build rule for target.
 service_client_node/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_client_node.dir/build.make naloga1/CMakeFiles/service_client_node.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_client_node.dir/build.make naloga1/CMakeFiles/service_client_node.dir/build
 .PHONY : service_client_node/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/naloga1_genpy.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_genpy.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_genpy.dir/rule
 .PHONY : naloga1/CMakeFiles/naloga1_genpy.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ naloga1_genpy: naloga1/CMakeFiles/naloga1_genpy.dir/rule
 
 # fast build rule for target.
 naloga1_genpy/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_genpy.dir/build.make naloga1/CMakeFiles/naloga1_genpy.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_genpy.dir/build.make naloga1/CMakeFiles/naloga1_genpy.dir/build
 .PHONY : naloga1_genpy/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/naloga1_genlisp.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_genlisp.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_genlisp.dir/rule
 .PHONY : naloga1/CMakeFiles/naloga1_genlisp.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ naloga1_genlisp: naloga1/CMakeFiles/naloga1_genlisp.dir/rule
 
 # fast build rule for target.
 naloga1_genlisp/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_genlisp.dir/build.make naloga1/CMakeFiles/naloga1_genlisp.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_genlisp.dir/build.make naloga1/CMakeFiles/naloga1_genlisp.dir/build
 .PHONY : naloga1_genlisp/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/naloga1_generate_messages_nodejs.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages_nodejs.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages_nodejs.dir/rule
 .PHONY : naloga1/CMakeFiles/naloga1_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ naloga1_generate_messages_nodejs: naloga1/CMakeFiles/naloga1_generate_messages_n
 
 # fast build rule for target.
 naloga1_generate_messages_nodejs/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_nodejs.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_nodejs.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_nodejs.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_nodejs.dir/build
 .PHONY : naloga1_generate_messages_nodejs/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/custom_subscriber_node.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/custom_subscriber_node.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/custom_subscriber_node.dir/rule
 .PHONY : naloga1/CMakeFiles/custom_subscriber_node.dir/rule
 
 # Convenience name for target.
@@ -419,12 +419,12 @@ custom_subscriber_node: naloga1/CMakeFiles/custom_subscriber_node.dir/rule
 
 # fast build rule for target.
 custom_subscriber_node/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_subscriber_node.dir/build.make naloga1/CMakeFiles/custom_subscriber_node.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_subscriber_node.dir/build.make naloga1/CMakeFiles/custom_subscriber_node.dir/build
 .PHONY : custom_subscriber_node/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/naloga1_gennodejs.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_gennodejs.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_gennodejs.dir/rule
 .PHONY : naloga1/CMakeFiles/naloga1_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ naloga1_gennodejs: naloga1/CMakeFiles/naloga1_gennodejs.dir/rule
 
 # fast build rule for target.
 naloga1_gennodejs/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_gennodejs.dir/build.make naloga1/CMakeFiles/naloga1_gennodejs.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_gennodejs.dir/build.make naloga1/CMakeFiles/naloga1_gennodejs.dir/build
 .PHONY : naloga1_gennodejs/fast
 
 # Convenience name for target.
 naloga1/CMakeFiles/naloga1_generate_messages_py.dir/rule:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages_py.dir/rule
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f CMakeFiles/Makefile2 naloga1/CMakeFiles/naloga1_generate_messages_py.dir/rule
 .PHONY : naloga1/CMakeFiles/naloga1_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -449,7 +449,7 @@ naloga1_generate_messages_py: naloga1/CMakeFiles/naloga1_generate_messages_py.di
 
 # fast build rule for target.
 naloga1_generate_messages_py/fast:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_py.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_py.dir/build
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/naloga1_generate_messages_py.dir/build.make naloga1/CMakeFiles/naloga1_generate_messages_py.dir/build
 .PHONY : naloga1_generate_messages_py/fast
 
 src/client_node.o: src/client_node.cpp.o
@@ -458,7 +458,7 @@ src/client_node.o: src/client_node.cpp.o
 
 # target to build an object file
 src/client_node.cpp.o:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_client_node.dir/build.make naloga1/CMakeFiles/service_client_node.dir/src/client_node.cpp.o
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_client_node.dir/build.make naloga1/CMakeFiles/service_client_node.dir/src/client_node.cpp.o
 .PHONY : src/client_node.cpp.o
 
 src/client_node.i: src/client_node.cpp.i
@@ -467,7 +467,7 @@ src/client_node.i: src/client_node.cpp.i
 
 # target to preprocess a source file
 src/client_node.cpp.i:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_client_node.dir/build.make naloga1/CMakeFiles/service_client_node.dir/src/client_node.cpp.i
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_client_node.dir/build.make naloga1/CMakeFiles/service_client_node.dir/src/client_node.cpp.i
 .PHONY : src/client_node.cpp.i
 
 src/client_node.s: src/client_node.cpp.s
@@ -476,7 +476,7 @@ src/client_node.s: src/client_node.cpp.s
 
 # target to generate assembly for a file
 src/client_node.cpp.s:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_client_node.dir/build.make naloga1/CMakeFiles/service_client_node.dir/src/client_node.cpp.s
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_client_node.dir/build.make naloga1/CMakeFiles/service_client_node.dir/src/client_node.cpp.s
 .PHONY : src/client_node.cpp.s
 
 src/custom_publisher_node.o: src/custom_publisher_node.cpp.o
@@ -485,7 +485,7 @@ src/custom_publisher_node.o: src/custom_publisher_node.cpp.o
 
 # target to build an object file
 src/custom_publisher_node.cpp.o:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_publisher_node.dir/build.make naloga1/CMakeFiles/custom_publisher_node.dir/src/custom_publisher_node.cpp.o
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_publisher_node.dir/build.make naloga1/CMakeFiles/custom_publisher_node.dir/src/custom_publisher_node.cpp.o
 .PHONY : src/custom_publisher_node.cpp.o
 
 src/custom_publisher_node.i: src/custom_publisher_node.cpp.i
@@ -494,7 +494,7 @@ src/custom_publisher_node.i: src/custom_publisher_node.cpp.i
 
 # target to preprocess a source file
 src/custom_publisher_node.cpp.i:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_publisher_node.dir/build.make naloga1/CMakeFiles/custom_publisher_node.dir/src/custom_publisher_node.cpp.i
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_publisher_node.dir/build.make naloga1/CMakeFiles/custom_publisher_node.dir/src/custom_publisher_node.cpp.i
 .PHONY : src/custom_publisher_node.cpp.i
 
 src/custom_publisher_node.s: src/custom_publisher_node.cpp.s
@@ -503,7 +503,7 @@ src/custom_publisher_node.s: src/custom_publisher_node.cpp.s
 
 # target to generate assembly for a file
 src/custom_publisher_node.cpp.s:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_publisher_node.dir/build.make naloga1/CMakeFiles/custom_publisher_node.dir/src/custom_publisher_node.cpp.s
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_publisher_node.dir/build.make naloga1/CMakeFiles/custom_publisher_node.dir/src/custom_publisher_node.cpp.s
 .PHONY : src/custom_publisher_node.cpp.s
 
 src/custom_subscriber_node.o: src/custom_subscriber_node.cpp.o
@@ -512,7 +512,7 @@ src/custom_subscriber_node.o: src/custom_subscriber_node.cpp.o
 
 # target to build an object file
 src/custom_subscriber_node.cpp.o:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_subscriber_node.dir/build.make naloga1/CMakeFiles/custom_subscriber_node.dir/src/custom_subscriber_node.cpp.o
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_subscriber_node.dir/build.make naloga1/CMakeFiles/custom_subscriber_node.dir/src/custom_subscriber_node.cpp.o
 .PHONY : src/custom_subscriber_node.cpp.o
 
 src/custom_subscriber_node.i: src/custom_subscriber_node.cpp.i
@@ -521,7 +521,7 @@ src/custom_subscriber_node.i: src/custom_subscriber_node.cpp.i
 
 # target to preprocess a source file
 src/custom_subscriber_node.cpp.i:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_subscriber_node.dir/build.make naloga1/CMakeFiles/custom_subscriber_node.dir/src/custom_subscriber_node.cpp.i
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_subscriber_node.dir/build.make naloga1/CMakeFiles/custom_subscriber_node.dir/src/custom_subscriber_node.cpp.i
 .PHONY : src/custom_subscriber_node.cpp.i
 
 src/custom_subscriber_node.s: src/custom_subscriber_node.cpp.s
@@ -530,7 +530,7 @@ src/custom_subscriber_node.s: src/custom_subscriber_node.cpp.s
 
 # target to generate assembly for a file
 src/custom_subscriber_node.cpp.s:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_subscriber_node.dir/build.make naloga1/CMakeFiles/custom_subscriber_node.dir/src/custom_subscriber_node.cpp.s
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/custom_subscriber_node.dir/build.make naloga1/CMakeFiles/custom_subscriber_node.dir/src/custom_subscriber_node.cpp.s
 .PHONY : src/custom_subscriber_node.cpp.s
 
 src/service_node.o: src/service_node.cpp.o
@@ -539,7 +539,7 @@ src/service_node.o: src/service_node.cpp.o
 
 # target to build an object file
 src/service_node.cpp.o:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_server_node.dir/build.make naloga1/CMakeFiles/service_server_node.dir/src/service_node.cpp.o
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_server_node.dir/build.make naloga1/CMakeFiles/service_server_node.dir/src/service_node.cpp.o
 .PHONY : src/service_node.cpp.o
 
 src/service_node.i: src/service_node.cpp.i
@@ -548,7 +548,7 @@ src/service_node.i: src/service_node.cpp.i
 
 # target to preprocess a source file
 src/service_node.cpp.i:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_server_node.dir/build.make naloga1/CMakeFiles/service_server_node.dir/src/service_node.cpp.i
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_server_node.dir/build.make naloga1/CMakeFiles/service_server_node.dir/src/service_node.cpp.i
 .PHONY : src/service_node.cpp.i
 
 src/service_node.s: src/service_node.cpp.s
@@ -557,7 +557,7 @@ src/service_node.s: src/service_node.cpp.s
 
 # target to generate assembly for a file
 src/service_node.cpp.s:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_server_node.dir/build.make naloga1/CMakeFiles/service_server_node.dir/src/service_node.cpp.s
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/service_server_node.dir/build.make naloga1/CMakeFiles/service_server_node.dir/src/service_node.cpp.s
 .PHONY : src/service_node.cpp.s
 
 src/simple_publisher_node.o: src/simple_publisher_node.cpp.o
@@ -566,7 +566,7 @@ src/simple_publisher_node.o: src/simple_publisher_node.cpp.o
 
 # target to build an object file
 src/simple_publisher_node.cpp.o:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_publisher_node.dir/build.make naloga1/CMakeFiles/simple_publisher_node.dir/src/simple_publisher_node.cpp.o
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_publisher_node.dir/build.make naloga1/CMakeFiles/simple_publisher_node.dir/src/simple_publisher_node.cpp.o
 .PHONY : src/simple_publisher_node.cpp.o
 
 src/simple_publisher_node.i: src/simple_publisher_node.cpp.i
@@ -575,7 +575,7 @@ src/simple_publisher_node.i: src/simple_publisher_node.cpp.i
 
 # target to preprocess a source file
 src/simple_publisher_node.cpp.i:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_publisher_node.dir/build.make naloga1/CMakeFiles/simple_publisher_node.dir/src/simple_publisher_node.cpp.i
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_publisher_node.dir/build.make naloga1/CMakeFiles/simple_publisher_node.dir/src/simple_publisher_node.cpp.i
 .PHONY : src/simple_publisher_node.cpp.i
 
 src/simple_publisher_node.s: src/simple_publisher_node.cpp.s
@@ -584,7 +584,7 @@ src/simple_publisher_node.s: src/simple_publisher_node.cpp.s
 
 # target to generate assembly for a file
 src/simple_publisher_node.cpp.s:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_publisher_node.dir/build.make naloga1/CMakeFiles/simple_publisher_node.dir/src/simple_publisher_node.cpp.s
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_publisher_node.dir/build.make naloga1/CMakeFiles/simple_publisher_node.dir/src/simple_publisher_node.cpp.s
 .PHONY : src/simple_publisher_node.cpp.s
 
 src/simple_subscriber_node.o: src/simple_subscriber_node.cpp.o
@@ -593,7 +593,7 @@ src/simple_subscriber_node.o: src/simple_subscriber_node.cpp.o
 
 # target to build an object file
 src/simple_subscriber_node.cpp.o:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_subscriber_node.dir/build.make naloga1/CMakeFiles/simple_subscriber_node.dir/src/simple_subscriber_node.cpp.o
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_subscriber_node.dir/build.make naloga1/CMakeFiles/simple_subscriber_node.dir/src/simple_subscriber_node.cpp.o
 .PHONY : src/simple_subscriber_node.cpp.o
 
 src/simple_subscriber_node.i: src/simple_subscriber_node.cpp.i
@@ -602,7 +602,7 @@ src/simple_subscriber_node.i: src/simple_subscriber_node.cpp.i
 
 # target to preprocess a source file
 src/simple_subscriber_node.cpp.i:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_subscriber_node.dir/build.make naloga1/CMakeFiles/simple_subscriber_node.dir/src/simple_subscriber_node.cpp.i
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_subscriber_node.dir/build.make naloga1/CMakeFiles/simple_subscriber_node.dir/src/simple_subscriber_node.cpp.i
 .PHONY : src/simple_subscriber_node.cpp.i
 
 src/simple_subscriber_node.s: src/simple_subscriber_node.cpp.s
@@ -611,7 +611,7 @@ src/simple_subscriber_node.s: src/simple_subscriber_node.cpp.s
 
 # target to generate assembly for a file
 src/simple_subscriber_node.cpp.s:
-	cd /home/it/Documents/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_subscriber_node.dir/build.make naloga1/CMakeFiles/simple_subscriber_node.dir/src/simple_subscriber_node.cpp.s
+	cd /home/it/Documents/ros/ROS/build && $(MAKE) -f naloga1/CMakeFiles/simple_subscriber_node.dir/build.make naloga1/CMakeFiles/simple_subscriber_node.dir/src/simple_subscriber_node.cpp.s
 .PHONY : src/simple_subscriber_node.cpp.s
 
 # Help Target
@@ -675,6 +675,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

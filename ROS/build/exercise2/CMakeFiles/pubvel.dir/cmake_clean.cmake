@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/lib/exercise2/pubvel"
-  "/home/it/Documents/ROS/devel/lib/exercise2/pubvel.pdb"
+  "/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel"
+  "/home/it/Documents/ros/ROS/devel/lib/exercise2/pubvel.pdb"
   "CMakeFiles/pubvel.dir/src/pubvel.cpp.o"
 )
 

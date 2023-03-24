@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 # Utility rule file for exercise1_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include exercise1/CMakeFiles/exercise1_generate_messages_lisp.dir/progress.make
 
-exercise1/CMakeFiles/exercise1_generate_messages_lisp: /home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/msg/Greeting.lisp
-exercise1/CMakeFiles/exercise1_generate_messages_lisp: /home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/srv/Reverse.lisp
+exercise1/CMakeFiles/exercise1_generate_messages_lisp: /home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/msg/Greeting.lisp
+exercise1/CMakeFiles/exercise1_generate_messages_lisp: /home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/srv/Reverse.lisp
 
 
-/home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/msg/Greeting.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/msg/Greeting.lisp: /home/it/Documents/ROS/src/exercise1/msg/Greeting.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from exercise1/Greeting.msg"
-	cd /home/it/Documents/ROS/build/exercise1 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/it/Documents/ROS/src/exercise1/msg/Greeting.msg -Iexercise1:/home/it/Documents/ROS/src/exercise1/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p exercise1 -o /home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/msg
+/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/msg/Greeting.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/msg/Greeting.lisp: /home/it/Documents/ros/ROS/src/exercise1/msg/Greeting.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ros/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from exercise1/Greeting.msg"
+	cd /home/it/Documents/ros/ROS/build/exercise1 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/it/Documents/ros/ROS/src/exercise1/msg/Greeting.msg -Iexercise1:/home/it/Documents/ros/ROS/src/exercise1/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p exercise1 -o /home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/msg
 
-/home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/srv/Reverse.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/srv/Reverse.lisp: /home/it/Documents/ROS/src/exercise1/srv/Reverse.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from exercise1/Reverse.srv"
-	cd /home/it/Documents/ROS/build/exercise1 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/it/Documents/ROS/src/exercise1/srv/Reverse.srv -Iexercise1:/home/it/Documents/ROS/src/exercise1/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p exercise1 -o /home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/srv
+/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/srv/Reverse.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/srv/Reverse.lisp: /home/it/Documents/ros/ROS/src/exercise1/srv/Reverse.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ros/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from exercise1/Reverse.srv"
+	cd /home/it/Documents/ros/ROS/build/exercise1 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/it/Documents/ros/ROS/src/exercise1/srv/Reverse.srv -Iexercise1:/home/it/Documents/ros/ROS/src/exercise1/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p exercise1 -o /home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/srv
 
 exercise1_generate_messages_lisp: exercise1/CMakeFiles/exercise1_generate_messages_lisp
-exercise1_generate_messages_lisp: /home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/msg/Greeting.lisp
-exercise1_generate_messages_lisp: /home/it/Documents/ROS/devel/share/common-lisp/ros/exercise1/srv/Reverse.lisp
+exercise1_generate_messages_lisp: /home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/msg/Greeting.lisp
+exercise1_generate_messages_lisp: /home/it/Documents/ros/ROS/devel/share/common-lisp/ros/exercise1/srv/Reverse.lisp
 exercise1_generate_messages_lisp: exercise1/CMakeFiles/exercise1_generate_messages_lisp.dir/build.make
 
 .PHONY : exercise1_generate_messages_lisp
@@ -80,10 +80,10 @@ exercise1/CMakeFiles/exercise1_generate_messages_lisp.dir/build: exercise1_gener
 .PHONY : exercise1/CMakeFiles/exercise1_generate_messages_lisp.dir/build
 
 exercise1/CMakeFiles/exercise1_generate_messages_lisp.dir/clean:
-	cd /home/it/Documents/ROS/build/exercise1 && $(CMAKE_COMMAND) -P CMakeFiles/exercise1_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/it/Documents/ros/ROS/build/exercise1 && $(CMAKE_COMMAND) -P CMakeFiles/exercise1_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : exercise1/CMakeFiles/exercise1_generate_messages_lisp.dir/clean
 
 exercise1/CMakeFiles/exercise1_generate_messages_lisp.dir/depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ROS/src /home/it/Documents/ROS/src/exercise1 /home/it/Documents/ROS/build /home/it/Documents/ROS/build/exercise1 /home/it/Documents/ROS/build/exercise1/CMakeFiles/exercise1_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ros/ROS/src /home/it/Documents/ros/ROS/src/exercise1 /home/it/Documents/ros/ROS/build /home/it/Documents/ros/ROS/build/exercise1 /home/it/Documents/ros/ROS/build/exercise1/CMakeFiles/exercise1_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : exercise1/CMakeFiles/exercise1_generate_messages_lisp.dir/depend
 

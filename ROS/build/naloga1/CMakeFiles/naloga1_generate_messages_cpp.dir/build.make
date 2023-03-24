@@ -43,36 +43,36 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 # Utility rule file for naloga1_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/progress.make
 
-naloga1/CMakeFiles/naloga1_generate_messages_cpp: /home/it/Documents/ROS/devel/include/naloga1/CustomMessage.h
-naloga1/CMakeFiles/naloga1_generate_messages_cpp: /home/it/Documents/ROS/devel/include/naloga1/Sum.h
+naloga1/CMakeFiles/naloga1_generate_messages_cpp: /home/it/Documents/ros/ROS/devel/include/naloga1/CustomMessage.h
+naloga1/CMakeFiles/naloga1_generate_messages_cpp: /home/it/Documents/ros/ROS/devel/include/naloga1/Sum.h
 
 
-/home/it/Documents/ROS/devel/include/naloga1/CustomMessage.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/it/Documents/ROS/devel/include/naloga1/CustomMessage.h: /home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg
-/home/it/Documents/ROS/devel/include/naloga1/CustomMessage.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from naloga1/CustomMessage.msg"
-	cd /home/it/Documents/ROS/src/naloga1 && /home/it/Documents/ROS/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/it/Documents/ROS/src/naloga1/msg/CustomMessage.msg -Inaloga1:/home/it/Documents/ROS/src/naloga1/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p naloga1 -o /home/it/Documents/ROS/devel/include/naloga1 -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/it/Documents/ros/ROS/devel/include/naloga1/CustomMessage.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/it/Documents/ros/ROS/devel/include/naloga1/CustomMessage.h: /home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg
+/home/it/Documents/ros/ROS/devel/include/naloga1/CustomMessage.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ros/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from naloga1/CustomMessage.msg"
+	cd /home/it/Documents/ros/ROS/src/naloga1 && /home/it/Documents/ros/ROS/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/it/Documents/ros/ROS/src/naloga1/msg/CustomMessage.msg -Inaloga1:/home/it/Documents/ros/ROS/src/naloga1/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p naloga1 -o /home/it/Documents/ros/ROS/devel/include/naloga1 -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/it/Documents/ROS/devel/include/naloga1/Sum.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/it/Documents/ROS/devel/include/naloga1/Sum.h: /home/it/Documents/ROS/src/naloga1/srv/Sum.srv
-/home/it/Documents/ROS/devel/include/naloga1/Sum.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/it/Documents/ROS/devel/include/naloga1/Sum.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from naloga1/Sum.srv"
-	cd /home/it/Documents/ROS/src/naloga1 && /home/it/Documents/ROS/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/it/Documents/ROS/src/naloga1/srv/Sum.srv -Inaloga1:/home/it/Documents/ROS/src/naloga1/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p naloga1 -o /home/it/Documents/ROS/devel/include/naloga1 -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/it/Documents/ros/ROS/devel/include/naloga1/Sum.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/it/Documents/ros/ROS/devel/include/naloga1/Sum.h: /home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv
+/home/it/Documents/ros/ROS/devel/include/naloga1/Sum.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/it/Documents/ros/ROS/devel/include/naloga1/Sum.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/it/Documents/ros/ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from naloga1/Sum.srv"
+	cd /home/it/Documents/ros/ROS/src/naloga1 && /home/it/Documents/ros/ROS/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/it/Documents/ros/ROS/src/naloga1/srv/Sum.srv -Inaloga1:/home/it/Documents/ros/ROS/src/naloga1/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p naloga1 -o /home/it/Documents/ros/ROS/devel/include/naloga1 -e /opt/ros/noetic/share/gencpp/cmake/..
 
 naloga1_generate_messages_cpp: naloga1/CMakeFiles/naloga1_generate_messages_cpp
-naloga1_generate_messages_cpp: /home/it/Documents/ROS/devel/include/naloga1/CustomMessage.h
-naloga1_generate_messages_cpp: /home/it/Documents/ROS/devel/include/naloga1/Sum.h
+naloga1_generate_messages_cpp: /home/it/Documents/ros/ROS/devel/include/naloga1/CustomMessage.h
+naloga1_generate_messages_cpp: /home/it/Documents/ros/ROS/devel/include/naloga1/Sum.h
 naloga1_generate_messages_cpp: naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/build.make
 
 .PHONY : naloga1_generate_messages_cpp
@@ -83,10 +83,10 @@ naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/build: naloga1_generate_mes
 .PHONY : naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/build
 
 naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/clean:
-	cd /home/it/Documents/ROS/build/naloga1 && $(CMAKE_COMMAND) -P CMakeFiles/naloga1_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/it/Documents/ros/ROS/build/naloga1 && $(CMAKE_COMMAND) -P CMakeFiles/naloga1_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/clean
 
 naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ROS/src /home/it/Documents/ROS/src/naloga1 /home/it/Documents/ROS/build /home/it/Documents/ROS/build/naloga1 /home/it/Documents/ROS/build/naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ros/ROS/src /home/it/Documents/ros/ROS/src/naloga1 /home/it/Documents/ros/ROS/build /home/it/Documents/ros/ROS/build/naloga1 /home/it/Documents/ros/ROS/build/naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : naloga1/CMakeFiles/naloga1_generate_messages_cpp.dir/depend
 

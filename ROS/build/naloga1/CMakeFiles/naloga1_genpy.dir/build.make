@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/it/Documents/ROS/src
+CMAKE_SOURCE_DIR = /home/it/Documents/ros/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/it/Documents/ROS/build
+CMAKE_BINARY_DIR = /home/it/Documents/ros/ROS/build
 
 # Utility rule file for naloga1_genpy.
 
@@ -63,10 +63,10 @@ naloga1/CMakeFiles/naloga1_genpy.dir/build: naloga1_genpy
 .PHONY : naloga1/CMakeFiles/naloga1_genpy.dir/build
 
 naloga1/CMakeFiles/naloga1_genpy.dir/clean:
-	cd /home/it/Documents/ROS/build/naloga1 && $(CMAKE_COMMAND) -P CMakeFiles/naloga1_genpy.dir/cmake_clean.cmake
+	cd /home/it/Documents/ros/ROS/build/naloga1 && $(CMAKE_COMMAND) -P CMakeFiles/naloga1_genpy.dir/cmake_clean.cmake
 .PHONY : naloga1/CMakeFiles/naloga1_genpy.dir/clean
 
 naloga1/CMakeFiles/naloga1_genpy.dir/depend:
-	cd /home/it/Documents/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ROS/src /home/it/Documents/ROS/src/naloga1 /home/it/Documents/ROS/build /home/it/Documents/ROS/build/naloga1 /home/it/Documents/ROS/build/naloga1/CMakeFiles/naloga1_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/it/Documents/ros/ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/it/Documents/ros/ROS/src /home/it/Documents/ros/ROS/src/naloga1 /home/it/Documents/ros/ROS/build /home/it/Documents/ros/ROS/build/naloga1 /home/it/Documents/ros/ROS/build/naloga1/CMakeFiles/naloga1_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : naloga1/CMakeFiles/naloga1_genpy.dir/depend
 

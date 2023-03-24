@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/it/Documents/ROS/devel/lib/naloga1/custom_subscriber_node"
-  "/home/it/Documents/ROS/devel/lib/naloga1/custom_subscriber_node.pdb"
+  "/home/it/Documents/ros/ROS/devel/lib/naloga1/custom_subscriber_node"
+  "/home/it/Documents/ros/ROS/devel/lib/naloga1/custom_subscriber_node.pdb"
   "CMakeFiles/custom_subscriber_node.dir/src/custom_subscriber_node.cpp.o"
 )
 

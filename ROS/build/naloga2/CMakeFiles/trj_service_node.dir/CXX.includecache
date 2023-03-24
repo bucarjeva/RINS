@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/it/Documents/ROS/devel/include/naloga2/trajectory.h
+/home/it/Documents/ros/ROS/devel/include/naloga2/trajectory.h
 ros/service_traits.h
 -
 naloga2/trajectoryRequest.h
@@ -14,7 +14,7 @@ naloga2/trajectoryRequest.h
 naloga2/trajectoryResponse.h
 -
 
-/home/it/Documents/ROS/devel/include/naloga2/trajectoryRequest.h
+/home/it/Documents/ros/ROS/devel/include/naloga2/trajectoryRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/it/Documents/ROS/devel/include/naloga2/trajectoryResponse.h
+/home/it/Documents/ros/ROS/devel/include/naloga2/trajectoryResponse.h
 string
 -
 vector
@@ -46,11 +46,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/it/Documents/ROS/src/naloga2/src/service_node.cpp
+/home/it/Documents/ros/ROS/src/naloga2/src/service_node.cpp
 ros/ros.h
-/home/it/Documents/ROS/src/naloga2/src/ros/ros.h
+/home/it/Documents/ros/ROS/src/naloga2/src/ros/ros.h
 naloga2/trajectory.h
-/home/it/Documents/ROS/src/naloga2/src/naloga2/trajectory.h
+/home/it/Documents/ros/ROS/src/naloga2/src/naloga2/trajectory.h
 geometry_msgs/Twist.h
 -
 stdlib.h
